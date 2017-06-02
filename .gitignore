@@ -37,7 +37,7 @@ node_modules/
 jspm_packages/
 
 # IDE webstome setting
-.idea/
+.idea
 
 # Typescript v1 declaration files
 typings/
