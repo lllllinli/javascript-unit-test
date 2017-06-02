@@ -1,0 +1,32 @@
+{
+  "name": "unit-test-for-jquery",
+  "version": "1.0.0",
+  "description": "unit test for jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-webpack": "mocha-webpack --webpack-config webpack.config-test.js \"src/**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lllllinli/unit-test-for-jquery.git"
+  },
+  "keywords": [
+    "unit",
+    "test"
+  ],
+  "author": "standley lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lllllinli/unit-test-for-jquery/issues"
+  },
+  "homepage": "https://github.com/lllllinli/unit-test-for-jquery#readme",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2",
+    "mocha-loader": "^1.1.1",
+    "mocha-webpack": "^1.0.0-beta.1",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {}
+}
